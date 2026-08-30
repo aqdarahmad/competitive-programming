@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "UCRT64",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/msys64/ucrt64/include/c++/16.1.0",
+                "C:/msys64/ucrt64/include/c++/16.1.0/x86_64-w64-mingw32",
+                "C:/msys64/ucrt64/include/c++/16.1.0/backward"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "gnu++20",
+            "intelliSenseMode": "windows-gcc-x64",
+            "compilerPath": "C:/msys64/ucrt64/bin/g++.exe"
+        }
+    ],
+    "version": 4
+}
