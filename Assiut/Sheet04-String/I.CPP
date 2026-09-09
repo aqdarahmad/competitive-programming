@@ -1,0 +1,17 @@
+using namespace std;
+#include <bits/stdc++.h>
+ 
+int main() 
+{
+string s;
+cin>>s;
+ 
+string t=s;
+reverse(t.begin(),t.end());
+if(s==t)
+cout<<"YES"<<endl;
+else
+cout<<"NO"<<endl;
+ 
+return 0;
+}
