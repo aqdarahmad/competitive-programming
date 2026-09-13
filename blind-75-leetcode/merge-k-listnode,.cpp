@@ -8,6 +8,8 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+#include<bits/stdc++.h>
+using namespace st;
 class Solution {
 public:
     ListNode* mergeKLists(vector<ListNode*>& lists) {

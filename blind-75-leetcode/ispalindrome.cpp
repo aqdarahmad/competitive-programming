@@ -1,3 +1,5 @@
+#include<bits/stdc++.h>
+using namespace st;
 class Solution {
 public:
     bool isPalindrome(string s) {
