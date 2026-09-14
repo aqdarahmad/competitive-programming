@@ -15,7 +15,7 @@ int longestsubstring(string s)
             l++;
         }
         seen[s[i]]=true;
-        ans=max(and,r-l+1);
+        ans=max(ans,i-l+1);
      }
      return ans;
  }
