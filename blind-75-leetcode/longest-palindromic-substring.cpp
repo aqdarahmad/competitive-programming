@@ -1,10 +1,10 @@
 class Solution {
 public:
     string longestPalindrome(string s) {
-        vector<string>v;
+      
         int l;
         int r;
-
+        string rslt= "";
         for(int i=0;i<s.size();i++)
          {
                   l=i;
@@ -12,7 +12,8 @@ public:
 
                   while(l>=0 && r<s.size() && s[l]==s[r])
                    {
-                       v.push_back(s.substr(l,r-l+1));     
+                       if(r-l+1 > rslt.size())
+                         rslt=s.substr(l,r-l+1);  
                       l--;
                       r++;
                    }
@@ -21,7 +22,8 @@ public:
 
                   while(l>=0 && r<s.size() && s[l]==s[r])
                    {
-                       v.push_back(s.substr(l,r-l+1));     
+                          if(r-l+1 > rslt.size())
+                           rslt=s.substr(l,r-l+1);    
                       l--;
                       r++;
                    }
@@ -30,13 +32,8 @@ public:
 
          }
 
-         string rslt= "";
-         for(int i=0;i<v.size();i++)
-          {
-                     if(v[i].size()>rslt.size())
-                       rslt=v[i];
-          }
-
+       
+      
           return rslt;
 
 
