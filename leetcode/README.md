@@ -3,7 +3,6 @@
 | Section | Language | Solved |
 |---------|----------|--------|
 | [Blind 75](#blind-75) | C++ | 35 |
-| [SQL](#sql) | MySQL | 2 |
 
 ## Blind 75
 
@@ -44,10 +43,3 @@
 | 33 | Top K Frequent Element | [top-k-frequent-element.cpp](blind-75/top-k-frequent-element.cpp) |
 | 34 | Two Sum | [two-sum.cpp](blind-75/two-sum.cpp) |
 | 35 | Unique Paths | [unique-paths.cpp](blind-75/unique-paths.cpp) |
-
-## SQL
-
-| # | Title | Difficulty | Runtime | Solution |
-|---|-------|------------|---------|----------|
-| 175 | [Combine Two Tables](sql/0175-combine-two-tables/README.md) | Easy | 426 ms | [SQL](sql/0175-combine-two-tables/solution.sql) |
-| 176 | [Second Highest Salary](sql/0176-second-highest-salary/README.md) | Medium | 242 ms | [SQL](sql/0176-second-highest-salary/solution.sql) |
