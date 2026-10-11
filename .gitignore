@@ -1,0 +1,14 @@
+# Editor / tooling
+.vscode/
+.cph/
+.idea/
+
+# Build output
+*.exe
+*.out
+*.o
+a.out
+
+# OS files
+.DS_Store
+Thumbs.db
